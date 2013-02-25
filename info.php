@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <pre>
-  SERVER_ADDR: <?=$_SERVER['SERVER_ADDR']?><br />
-  REMOTE_ADDR: <?=$_SERVER['REMOTE_ADDR']?><br />
+  SERVER_ADDR: <?php echo $_SERVER['SERVER_ADDR']; ?>
+  REMOTE_ADDR: <?php echo $_SERVER['REMOTE_ADDR']; ?>
 </pre>
 
 <pre>
